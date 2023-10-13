@@ -58376,35 +58376,52 @@ q=A.Zw(n.fn,"3",new A.q(4282951679),n.ij,q,"assets/images/other.png","Casual Bre
 p=B.e.l(B.e.aj(n.dh.a,o))
 return new A.cC(B.hm,A.bq(A.b([m,s,r,q,A.Zw(n.dP,"4",new A.q(4282921634),n.iF,p,"assets/images/star.png","Summit Break")],t.p),B.m,B.a0,B.k,null),null)}}
 A.Zv.prototype={
-V(a){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=4280230179,f=A.qF(a,!0,t.CS),e=i.r
-A.dZ(e,t.y)
-s=A.cP(a,h,t.w).w.a.a
-if(s<1000&&s>900)r=110
-else if(s<1121&&s>1000)r=115
-else if(s<1221&&s>1120)r=125
-else if(s<1321&&s>1220)r=135
-else if(s<1496&&s>1320)r=140
-else if(s<1600&&s>1495)r=145
-else if(s>1600&&s<1799)r=200
-else r=s<2100&&s>1800?250:160
-if(s<999&&s>900)s=165
-else if(s<1119&&s>1000)s=175
-else if(s<1220&&s>1120)s=195
-else if(s<1320&&s>1220)s=215
-else if(s<1496&&s>1320)s=230
-else if(s>1496&&s<1731)s=250
-else if(s>1730&&s<1799)s=310
-else s=s<2100&&s>1899?340:260
-q=A.et(10)
-p=A.et(10)
-o=i.d
+V(a0){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=null,c=4280230179,b=A.qF(a0,!0,t.CS),a=e.r
+A.dZ(a,t.y)
+s=A.cP(a0,d,t.w).w.a.a
+r=s<901
+if(r&&s>799)q=105
+else if(s<1000&&s>900)q=110
+else if(s<1121&&s>1000)q=115
+else if(s<1221&&s>1120)q=125
+else if(s<1321&&s>1220)q=135
+else if(s<1496&&s>1320)q=140
+else if(s<1600&&s>1495)q=145
+else if(s>1600&&s<1799)q=200
+else q=s<2100&&s>1800?250:160
+if(r&&s>799)p=145
+else if(s<999&&s>900)p=155
+else if(s<1119&&s>1000)p=175
+else if(s<1220&&s>1120)p=195
+else if(s<1320&&s>1220)p=215
+else if(s<1496&&s>1320)p=230
+else if(s>1496&&s<1731)p=250
+else if(s>1730&&s<1799)p=310
+else p=s<2100&&s>1899?340:260
+o=A.et(10)
 n=A.et(10)
-m=A.yB(-2.5,A.am(h,h,B.f,h,h,new A.bV(new A.q(g),h,h,new A.ed(new A.au(0,0),new A.au(10,10),new A.au(10,10),new A.au(0,0)),h,h,B.I),h,100,h,h,h,h,h,90),h,h,-2.5,h,h,h)
-l=t.p
-k=A.yB(h,new A.cC(new A.aW(10,10,0,0),A.bq(A.b([A.bL(A.b([A.Ed(i.f,h,35,35),A.ba(h,5,h),A.bL(A.b([A.bq(A.b([new A.aI(B.h,i.e,B.bn,7,h),A.ba(h,h,4),new A.aI(o,"minutes",B.aM,3,h)],l),B.dl,B.q,B.k,h),A.ba(h,h,1),new A.aI(new A.q(4287600034),i.c,B.aM,3,h)],l),B.m,B.q,B.k),A.ba(h,15,h)],l),B.ad,B.a0,B.k)],l),B.m,B.q,B.k,h),h),h,h,h,h,h,h)
-j=e?o:new A.q(4282532676)
-j=A.yB(h,A.dy(B.a7,A.b([new A.I3(30,new A.axl(),60,e,"Off","On",9,B.aW,o,B.Gr,j,B.H3,B.h,new A.axm(i,f),new A.axn(i,f),new A.axo(i,f),h)],l),B.J,B.a5,h),h,h,h,15,15,h)
-return A.am(h,new A.cC(new A.aW(4,4,4,4),A.am(h,new A.cC(new A.aW(2,2,2,2),A.am(h,A.dy(B.a7,A.b([m,k,j,e?new A.j6(B.CK,h,h,A.am(h,new A.T4(B.Jm,A.b([o],t.t_),B.n,0.5,B.r,h),B.f,h,h,h,h,35,h,h,h,h,h,35),h):A.am(h,h,B.f,h,h,h,h,h,h,h,h,h,h,h)],l),B.f,B.a5,h),B.f,h,h,new A.bV(new A.q(g),h,h,n,h,h,B.I),h,125,h,h,h,h,h,195),h),B.f,h,h,new A.bV(o,h,h,p,h,h,B.I),h,130,h,h,h,h,h,240),h),B.f,h,h,new A.bV(new A.q(g),h,h,q,h,h,B.I),h,r,h,h,h,h,h,s)}}
+m=e.d
+l=A.et(10)
+if(r&&s>799)k=80
+else k=s<999&&s>900?90:100
+k=A.yB(-2.5,A.am(d,d,B.f,d,d,new A.bV(new A.q(c),d,d,new A.ed(new A.au(0,0),new A.au(10,10),new A.au(10,10),new A.au(0,0)),d,d,B.I),d,k,d,d,d,d,d,90),d,d,-2.5,d,d,d)
+if(r&&s>799)j=26
+else j=s<999&&s>900?30:35
+if(r&&s>799)i=26
+else i=s<999&&s>900?30:35
+h=t.p
+i=A.yB(d,new A.cC(new A.aW(10,10,0,0),A.bq(A.b([A.bL(A.b([A.Ed(e.f,d,j,i),A.ba(d,5,d),A.bL(A.b([A.bq(A.b([new A.aI(B.h,e.e,B.bn,7,d),A.ba(d,d,4),new A.aI(m,"minutes",B.aM,3,d)],h),B.dl,B.q,B.k,d),A.ba(d,d,1),new A.aI(new A.q(4287600034),e.c,B.aM,3,d)],h),B.m,B.q,B.k),A.ba(d,15,d)],h),B.ad,B.a0,B.k)],h),B.m,B.q,B.k,d),d),d,d,d,d,d,d)
+if(r&&s>799)j=10
+else j=s<999&&s>900?10:15
+if(r&&s>799)g=10
+else g=s<999&&s>900?10:15
+if(r&&s>799)f=46
+else f=s<999&&s>900?50:60
+if(r&&s>799)s=21
+else s=s<999&&s>900?25:30
+r=a?m:new A.q(4282532676)
+j=A.yB(d,A.dy(B.a7,A.b([new A.I3(s,new A.axl(),f,a,"Off","On",9,B.aW,m,B.Gr,r,B.H3,B.h,new A.axm(e,b),new A.axn(e,b),new A.axo(e,b),d)],h),B.J,B.a5,d),d,d,d,g,j,d)
+return A.am(d,new A.cC(new A.aW(4,4,4,4),A.am(d,new A.cC(new A.aW(2,2,2,2),A.am(d,A.dy(B.a7,A.b([k,i,j,a?new A.j6(B.CK,d,d,A.am(d,new A.T4(B.Jm,A.b([m],t.t_),B.n,0.5,B.r,d),B.f,d,d,d,d,35,d,d,d,d,d,35),d):A.am(d,d,B.f,d,d,d,d,d,d,d,d,d,d,d)],h),B.f,B.a5,d),B.f,d,d,new A.bV(new A.q(c),d,d,l,d,d,B.I),d,125,d,d,d,d,d,195),d),B.f,d,d,new A.bV(m,d,d,n,d,d,B.I),d,130,d,d,d,d,d,240),d),B.f,d,d,new A.bV(new A.q(c),d,d,o,d,d,B.I),d,q,d,d,d,d,d,p)}}
 A.axl.prototype={
 $1(a){},
 $S:19}
